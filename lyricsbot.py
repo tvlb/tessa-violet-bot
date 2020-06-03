@@ -1,4 +1,5 @@
 
+
 '''tessa violet lyrics bot'''
 
 import time
@@ -16,11 +17,12 @@ lyrics=lyricfile.read()
 lyrics = lyrics.split("\n")
 
 x = 1
-try:
-    while x < 2:
-        y = random.randint(0,len(lyrics))
-        print(lyrics[y])
-        api.update_status(lyrics[y])
-        time.sleep(5)
-except:
-    pass
+while x < 2:
+    try:
+        while x < 2:
+            y = random.randint(0,len(lyrics))
+            print(lyrics[y])
+            api.update_status(lyrics[y])
+            time.sleep(30)
+    except:
+        pass
