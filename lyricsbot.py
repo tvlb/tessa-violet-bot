@@ -20,4 +20,4 @@ while x < 2:
     y = random.randint(0,len(lyrics))
     print(lyrics[y])
     api.update_status(lyrics[y])
-    time.sleep(5)
+    time.sleep(1800)
