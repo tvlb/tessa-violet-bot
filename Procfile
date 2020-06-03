@@ -1,1 +1,1 @@
-worker: python lyricsbot.py
+worker python lyricsbot.py
