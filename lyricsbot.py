@@ -22,7 +22,7 @@ while x < 2:
     api.update_status(lyrics[y])
     time.sleep(1800)
 
-    new_followers = API.followers(user)
+new_followers = API.followers(user)
 
 for i in new_followers:
     newDM = raw_input (i.from_user + "send follower DM?" + "Y/N" )
