@@ -30,5 +30,5 @@ for i in new_followers:
         print i.from_user + " was not messaged"
         print "Now returning to the Main Menu."
 else:
-    api.send_direct_message(user_id = i.from_user, text = "message text here")
+    api.send_direct_message(user_id = i.from_user, text = "Hi there! I'm a new bot on twitter and I was wondering if you'd take the time to share my account around! Maybe that would make the 4 hours of code worth it :)")
     print "You messaged " + i.from_user
