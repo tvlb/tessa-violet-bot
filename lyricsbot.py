@@ -14,7 +14,7 @@ api = tweepy.API(auth)
 
 lyricfile = open("lyrics.txt", "r")
 lyrics=lyricfile.read()
-lyrics = lyrics.split(",")
+lyrics = lyrics.split("\n")
 
 x = 1
 while x < 2:
